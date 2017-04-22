@@ -537,7 +537,7 @@ a:active {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-button,
+
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -724,7 +724,7 @@ textarea {
 #toggle-wrapper {
 	position: relative;
 	top: 25px;
-	left: 20px;
+	right: 20px;
 }
 .main-navigation button{
 	border: none;

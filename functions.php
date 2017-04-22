@@ -106,7 +106,7 @@ function ccs_scripts() {
 
 	wp_enqueue_script( 'ccs-jquery', '//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js');
 
-	wp_enqueue_script( 'ccs-jquery-cycle', get_template_directory_uri() . 'js/jquery-cycle2.min.js', array(), '20170301', true );	
+	wp_enqueue_script( 'ccs-jquery-cycle', get_template_directory_uri() . '/js/jquery.cycle2.min.js', array(), '20170301', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
